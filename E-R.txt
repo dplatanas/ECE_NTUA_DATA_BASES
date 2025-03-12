@@ -124,3 +124,4 @@ To create this ER diagram, use a tool such as:
 
 Let me know if you need any modifications!
 
+https://lucid.app/lucidchart/4db9d1ab-7b9d-4d21-ac45-a02d3765d1c0/edit?viewport_loc=-118%2C-4%2C2480%2C1096%2C0_0&invitationId=inv_0b1aec48-08e0-4c9d-ba8b-fc1ecbda077e
