@@ -69,6 +69,7 @@
 - Purchase Date
 - Payment Method (Credit, Debit, Bank Transfer)
 - EAN-131 Code
+- Active Y/N
 
 #### **Visitor**
 - Visitor_ID (PK)
