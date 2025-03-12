@@ -42,6 +42,7 @@
 
 #### **Artist**
 - Artist_ID (PK)
+- Band_ID (PK)
 - Name
 - Nickname (optional)
 - Birthdate
@@ -52,6 +53,7 @@
 
 #### **Band**
 - Band_ID (PK)
+- Members List 
 - Name
 - Formation Date
 - Website
