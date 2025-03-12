@@ -6,43 +6,44 @@
 - Festival_ID (PK)
 - Year
 - Location_ID (FK)
+- #days
 
 #### **Location**
 - Location_ID (PK)
-- Name
 - Address
 - City
 - Country
 - Continent
 - Coordinates
 
-#### **Stage**
+#### **Stage** /Building
 - Stage_ID (PK)
 - Name
 - Description
 - Capacity
 - Equipment
-- Festival_ID (FK)
+- Festival_ID (FK) ?
 
 #### **Event**
 - Event_ID (PK)
-- Festival_ID (FK)
+- Festival_ID (FK) ?
 - Stage_ID (FK)
 - Date
-- Time
+- Time ?
 
 #### **Performance**
 - Performance_ID (PK)
 - Event_ID (FK)
 - Artist_ID (FK)
 - Type (warm-up, headline, special guest)
+- Band_ID (FK)
 - Duration
 - Time
 
 #### **Artist**
 - Artist_ID (PK)
 - Name
-- Stage Name (optional)
+- Nickname (optional)
 - Birthdate
 - Music Genres
 - Subgenres
