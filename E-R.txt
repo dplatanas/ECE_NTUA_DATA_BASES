@@ -1,0 +1,122 @@
+**Entity-Relationship (ER) Diagram for Pulse University Festival**
+
+### **Entities and Attributes**
+
+#### **Festival**
+- Festival_ID (PK)
+- Year
+- Location_ID (FK)
+
+#### **Location**
+- Location_ID (PK)
+- Name
+- Address
+- City
+- Country
+- Continent
+- Coordinates
+
+#### **Stage**
+- Stage_ID (PK)
+- Name
+- Description
+- Capacity
+- Equipment
+- Festival_ID (FK)
+
+#### **Event**
+- Event_ID (PK)
+- Festival_ID (FK)
+- Stage_ID (FK)
+- Date
+- Time
+
+#### **Performance**
+- Performance_ID (PK)
+- Event_ID (FK)
+- Artist_ID (FK)
+- Type (warm-up, headline, special guest)
+- Duration
+- Time
+
+#### **Artist**
+- Artist_ID (PK)
+- Name
+- Stage Name (optional)
+- Birthdate
+- Music Genres
+- Subgenres
+- Website
+- Instagram
+
+#### **Band**
+- Band_ID (PK)
+- Name
+- Formation Date
+- Website
+
+#### **Membership (Relationship between Artists and Bands)**
+- Artist_ID (FK)
+- Band_ID (FK)
+
+#### **Ticket**
+- Ticket_ID (PK)
+- Event_ID (FK)
+- Visitor_ID (FK)
+- Category (VIP, General, Backstage)
+- Cost
+- Purchase Date
+- Payment Method (Credit, Debit, Bank Transfer)
+- EAN-131 Code
+
+#### **Visitor**
+- Visitor_ID (PK)
+- First Name
+- Last Name
+- Contact Details
+- Age
+
+#### **Review**
+- Review_ID (PK)
+- Performance_ID (FK)
+- Visitor_ID (FK)
+- Score (Likert Scale)
+- Criteria (Interpretation, Sound & Lighting, Stage Presence, Organization, Overall Impression)
+
+#### **Staff**
+- Staff_ID (PK)
+- Name
+- Age
+- Role (Technician, Security, Support Staff)
+- Experience Level (5 levels)
+
+#### **Work Assignment**
+- Staff_ID (FK)
+- Stage_ID (FK)
+- Event_ID (FK)
+- Role
+
+#### **Resale Queue**
+- Ticket_ID (FK)
+- Visitor_ID (FK)
+- Queue Date (FIFO System)
+
+### **Relationships & Constraints**
+1. Each **Festival** occurs in **one Location** (1:1).
+2. Each **Festival** has multiple **Stages** (1:M).
+3. Each **Event** happens at one **Stage**, but a **Stage** can host many **Events** (M:1).
+4. Each **Event** consists of **Performances** by **Artists** (1:M).
+5. An **Artist** can be part of multiple **Bands**, and a **Band** has multiple **Artists** (M:N).
+6. A **Visitor** buys **Tickets** for **Events** (M:N).
+7. A **Visitor** can review a **Performance** only if they attended it (1:M).
+8. **Staff** members are assigned to **Events** and **Stages** (M:N).
+9. If a **Ticket** is unused, it enters the **Resale Queue** (FIFO system).
+
+### **Diagram Implementation**
+To create this ER diagram, use a tool such as:
+- **Lucidchart**: Create entities as rectangles and relationships as diamonds.
+- **Draw.io**: Use connectors for relationships, adding cardinalities (1:1, 1:M, M:N).
+- **SQL Power Architect**: Generate a database schema from the ER model.
+
+Let me know if you need any modifications!
+
