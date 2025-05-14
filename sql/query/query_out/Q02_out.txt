@@ -1,0 +1,15 @@
+# artist_id, name, stage_name, genre_name, συμμετοχή_φέτος
+3, Danny Clark, jennifer96, Rock, Ναι
+9, Paul Combs, joann36, Rock, Ναι
+10, Michael Stevenson, probinson, Rock, Ναι
+18, John Hurley, vincentdavis, Rock, Ναι
+21, Robert Wu, mark21, Rock, Ναι
+23, Cory Parks, kimjames, Rock, Ναι
+25, Roberta Burke, hollycontreras, Rock, Ναι
+29, Jennifer Wells, qwalker, Rock, Όχι
+32, Alyssa Dalton, snyderchristopher, Rock, Όχι
+35, Nicole Thompson, ajohnson, Rock, Ναι
+41, Timothy Lewis, michael58, Rock, Ναι
+44, Kellie Willis, courtneyhuffman, Rock, Όχι
+46, Mark Little, jenkinspaul, Rock, Ναι
+50, James Rhodes, robert60, Rock, Ναι

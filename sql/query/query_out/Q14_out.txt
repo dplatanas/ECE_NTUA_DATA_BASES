@@ -1,0 +1,4 @@
+# genre_name, year1, year2, performances
+Rock, 2023, 2024, 14
+Pop, 2021, 2022, 32
+Hip Hop, 2023, 2024, 24

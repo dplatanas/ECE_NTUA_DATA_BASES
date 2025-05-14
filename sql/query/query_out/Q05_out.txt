@@ -1,0 +1,11 @@
+# artist_id, name, stage_name, age, συμμετοχές
+36, Stuart Meyer, franklinpeggy, 18, 25
+24, Matthew Hernandez, johnsonhannah, 29, 19
+22, Leah Webster, pmyers, 25, 16
+28, Matthew Hayes, kbrown, 19, 14
+15, Robert Hughes, lauraburns, 29, 10
+29, Jennifer Wells, qwalker, 25, 10
+16, Laura Hansen, twillis, 19, 8
+4, Jonathan Burns, stacey03, 21, 7
+45, Anthony Butler, taylorbrown, 20, 6
+39, Zoe Allen, teresabrown, 18, 6

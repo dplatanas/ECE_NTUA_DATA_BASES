@@ -1,0 +1,2 @@
+# artist_id, artist_name, stage_name, μέσος_όρος_ερμηνείας, μέσος_όρος_συνολικής_εντύπωσης
+30, Lisa Mack, jose06, 2.29, 3.00

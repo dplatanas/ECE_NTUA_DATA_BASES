@@ -1,0 +1,10 @@
+# visitor_id, first_name, last_name, παραστάσεις
+6, Melissa, Hickman, 5
+17, Miguel, Garcia, 5
+55, Julie, Castillo, 5
+56, Megan, Johnson, 5
+71, Heather, Johnston, 5
+88, Ashley, Anderson, 7
+106, Nicholas, Pittman, 5
+122, Zachary, Walker, 6
+147, Kyle, Ray, 5

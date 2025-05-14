@@ -1,0 +1,4 @@
+# genre1, genre2, ζεύγη_εμφανίσεων
+Electronic, Hip Hop, 10
+Jazz, Electronic, 10
+Jazz, Hip Hop, 10

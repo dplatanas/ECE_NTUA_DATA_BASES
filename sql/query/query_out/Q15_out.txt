@@ -1,0 +1,6 @@
+# visitor_first_name, visitor_last_name, artist_name, total_score
+Christopher, Green, Catherine Carroll, 34
+Randall, Rodriguez, Leah Webster, 34
+Miguel, Garcia, Nicole Thompson, 34
+Mckenzie, Mora, Michael Stevenson, 31
+Mckenzie, Mora, Danny Clark, 31
