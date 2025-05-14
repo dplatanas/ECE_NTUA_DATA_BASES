@@ -25,3 +25,8 @@ pip install faker
 ``` bash
 deactivate
 ```
+#### After this copy the file from the folder code/generate_data.py to your linux terminal and run the following command:
+``` bash
+python3 generate_data.py
+```
+#### The new file load.sql contains the dummy_data for the database to be inserted.
